@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body bgcolor="5f5f5f"><!-- 수량조절할때 쓸 수 있는거, max를 남은 재고만큼만 가져오게 해야겠다. -->
+  <h1>숫자 관련 인풋 태그</h1>
+  <label for="numIP"></label><br>
+  <input 
+    id="numIp" 
+    type="number" 
+    min="0"
+    max="10">
+  <br><br>
+
+  <label for="rangeIP"></label><br><!-- 볼륨조절할때 쓸 수 있는거 -->
+  <input 
+    id="rangeIP" 
+    type="range" 
+    min="0"
+    max="100"
+    step="20"><!-- 20씩 움직인다. 즉, 세세한 조절 불가 -->
+  <br><br>
+
+  <label for="dateIP"></label><br><!-- 볼륨조절할때 쓸 수 있는거 -->
+  <input 
+    id="date" 
+    type="date" 
+    min="2010-01-01"
+    max="2030-12-31">
+  <br><br>
+</body>
+</html>

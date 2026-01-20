@@ -1,0 +1,12 @@
+ul {
+  list-style-type: circle;/*서클은 비어있다는것*/
+}
+
+ul > li:first-child{
+  list-style: "|";
+}
+
+ol{
+  list-style: 
+  lower-greek;
+}

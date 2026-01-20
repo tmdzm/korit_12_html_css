@@ -1,0 +1,35 @@
+body{
+  /* display: inline-block; */
+  /* text-align: center; */
+}
+
+div {
+  /*display: inline-block; 왼족으로 붙는다. auto랑 관계있나?*/
+  /* inline-block으로 display 설정하게 되는 경우 width/height의 지정은 가능하지만
+  margin에서 auto가 먹질 않는다(inline의 성격) 
+  margin auto가 안먹히는 것은 inline 부분의 */
+  display: inline-block;
+  background-color: orangered;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-top: 8px solid black;
+  border-bottom: 0.5em wavy black;/*wavy는 안된다.*/
+  border-right: 0.5vw dashed black;
+  border-left: 0.5vh dotted black;
+
+}
+
+/*
+  왜 이상과 같이 했을 경우에만 작동 되냐면  인라인 블록 요소가 지금 박스 모습으로 보이기는 하지만
+  기본적으로 텍스트의 흐름을 따라가기 때문에 부모 요소에서 text-align 속성을 지정해줘야
+  block 요소처럼 margin으로 조정이 되지 않기 때문
+
+  display : block의 경우 너비와 높이를 지정할 수 있지만 기본적으로 전체row를 
+  다 잡아먹는 구조이다. 그렇기 때문에 margin을 통해서 통제가 가능하나 부모 요소에서 
+  text로 조절할 수 없다.
+*/
+
+p {
+  text-align: end;
+}

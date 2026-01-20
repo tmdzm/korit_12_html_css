@@ -1,0 +1,15 @@
+ul>li {
+  
+  display: inline-block;
+  /* margin-right: 2em ; */
+  padding : 2em;
+  background-color: blue;
+  width: 65px;
+}
+
+/*클릭을 예로 들면, 마진으로 늘어난 부분은 클릭해도 클릭이되지 않는다.
+하지만 padding부분은 늘어난다.*/
+
+ul > li > ul > li {
+  background-color: red;
+}

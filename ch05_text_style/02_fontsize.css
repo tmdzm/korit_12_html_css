@@ -1,0 +1,12 @@
+html {
+  font-size: 15px;
+}
+
+div{
+  font-size: 1.4rem;/*가장 상위 크기에서 일괄로 1.4배*/
+  /*font-size: 1.4em;/*즉, 자식은 부모의 1.4배*/
+}
+
+div div{
+  font-size: 2rem;
+}/*div아래 div를 2배, 즉 15px의 140%의 2배가 적용*/ 

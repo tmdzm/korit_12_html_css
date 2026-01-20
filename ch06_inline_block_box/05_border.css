@@ -1,0 +1,20 @@
+li:not(:last-child) {
+ text-decoration: underline;
+}
+
+li:not(:first-child) {
+ text-decoration: overline;
+}
+
+/*
+  이렇게 썻을 때는 텍스트 자체에 걸린다.(적용된다)
+  그런데 li 요소는 블록이잖아?
+  뒤에 빈 부분에도 줄을 그을 수 없나?
+
+  그래서 ul 리스트 1이 아니라 그 중 전체에 밑줄/ 윗줄을 그어보겠다.
+
+*/
+
+li:not(:last-child){
+  border-bottom: 1px solid black;
+}

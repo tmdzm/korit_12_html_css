@@ -1,0 +1,9 @@
+.line {
+  text-decoration: line-through;
+}
+
+/*
+  ol>li:last-child -> ol에 포함된 li의 마지막 자손 즉, 마지막 li를 지정
+  ol>li:nth-child(4) -> n번째 li 지정
+
+*/

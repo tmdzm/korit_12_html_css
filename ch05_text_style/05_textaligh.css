@@ -1,0 +1,12 @@
+html {
+  font-size : 12px;
+}
+
+p {
+  text-align: center;
+  line-height: 2em;
+  letter-spacing: 7px;
+  word-spacing: 1.5em;
+
+  text-indent: 1.5em;/*들여쓰기 지정*/
+}

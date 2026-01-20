@@ -1,0 +1,17 @@
+p {
+  text-shadow: 
+  /*여기서 중요한건 쉼표 쓰면 사라지니까 하나씩 체크할것*/
+  -1px 0 white, 1px 0 white , 0 1px white, 0 -1px white,
+  1px 1px white, 1px -1px white, -1px 1px white, -1px -1px white,
+  2px 0 plum, -2px 0 plum, 0 2px plum, 0 -2px plum,
+  2px 1px plum, -2px 1px plum, 1px 2px plum, 1px -2px plum,
+  2px -1px plum, -2px -1px plum, -1px 2px plum, -1px -2px plum,
+  2px 2px plum, 2px -2px plum, -2px 2px plum, -2px -2px plum
+  ;
+}/*상하좌우*/
+/*plum은 white보다 2배 많은 코드가 필요했던 이유를 생각할것
+
+1. 먼저 검은색 텍스트에 흰색 그림자를 1px씩 둘렀다.
+2. 상화좌우 대각선을 2px씩 해야 한번씩 바깥쪽에 둘러쌓기 때문에 
+총 16개의 css 코드라인이 나왔다.
+*/

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div{
+      width: 300px;
+      height: 300px;
+      border: 1px solid black;
+      background: linear-gradient(gold, green);
+    }
+
+    div.skyblue{
+      background: linear-gradient(45deg, skyblue,blue);
+    }
+
+    div.deeppink{
+      width: 400px;
+      height: 400px;
+      background: linear-gradient(90deg, deeppink ,25%,indigo);
+    }
+
+    .three{
+      background: linear-gradient(red 33%,white 33%,white 67%,blue 33%);
+    }
+    /* 3색 이상부턴 % 사이에 콤마를 안넣어도 된다. */
+
+    .transparent{
+      background: linear-gradient(217deg,red,transparent,70%),
+                  linear-gradient(127deg,lime,transparent,70%),
+                  linear-gradient(336deg,blue,transparent,70%);
+    }
+
+  </style>
+</head>
+<body bgcolor="5f5f5f">
+  <div class="gold"></div>
+  <br>
+  <div class="skyblue"></div>
+  <br>
+  <!-- class deeppink를 만든 다음 가로 방향으로  -->
+  <div class="deeppink"></div>
+  <br>
+  <div class="three"></div>
+  <br>
+  <div class="transparent"></div>
+</body>
+</html>

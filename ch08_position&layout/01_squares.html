@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div.outer{
+      display: inline-block;
+      border: 1px solid gray;
+      width: 640px;
+      height: 640px;
+    }
+
+    .outer>div{
+      display: inline-block;
+      border: 1px solid gray;
+      background-color: lightgray;
+      width: 189px;
+      height: 189px;
+      margin-left: 14px;
+      margin-top: 15px;
+    }
+    
+    .red{
+      width: 60px;
+      height: 60px;
+      background-color: red;
+    }
+
+    div.gold{
+      background-color: gold;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="outer">
+      <div></div>
+      <div></div>
+      <div></div>
+    
+      <div></div>
+      <div class="gold">
+        <div class="red"></div>
+      </div>
+      <div></div>
+    
+      <div></div>
+      <div></div>
+      <div></div>
+    
+  </div>
+</body>
+</html>

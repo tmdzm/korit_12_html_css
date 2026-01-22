@@ -1,0 +1,6 @@
+@import url(./shared.css);
+/* css끼리 import */
+body {
+  margin: 0;
+  padding: 24px;
+}

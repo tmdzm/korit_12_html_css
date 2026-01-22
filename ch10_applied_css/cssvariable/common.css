@@ -1,0 +1,28 @@
+/* 특정상황에서만 쓰이는 */
+u {
+  --not-good:wavy underline orange;
+  --wrong : wavy underline red;
+}
+
+.wrong {
+  --warn : yellow;
+}
+
+/* 모든 요소에서 사용될 수 있는 */
+:root {
+  --front-small : 8px;
+  --front-normal : 16px;
+  --front-large : 24px;
+  --front-x-large : 32px;
+  --front-xx-large : 40px;
+  --front-xxx-large : 48px;
+
+  --front-w-normal : 400;
+  --front-w-bold : 600;
+  --front-w-extrabold : 900;
+
+  --color-main : #ff4200;
+  --color-sub : #865a55;
+  --color-text : #49281c;
+  
+}

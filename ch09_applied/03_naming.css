@@ -1,0 +1,23 @@
+/* article {}
+article.aside {}
+article.aside.figure {}
+article.div.header {}
+article.ul.li {}
+article.div.li {} */
+
+/* .card{}
+.card.thumb{}
+.card.thumb.image{}
+.card.body.title{}
+.card.body.list{}
+.card.body.list.list-item{}
+.card.body.list.list-item-special{} */
+
+.card{}
+.card__thumb{}
+.card__image{}
+.card__body{}
+.card__title{}
+.card__list{}
+.card__list-item{}
+.card__list-itme--special{}
